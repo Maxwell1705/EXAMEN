@@ -9,7 +9,7 @@
 #Contenedor {
     width: 900px;
     height: 1000px;
-    background-color: rgb(230,200,149);
+    background-color: bisque;
     max-width: 0 auto;
     margin: auto;
 }
@@ -67,6 +67,7 @@
     font-size: medium;
     border: 1px black;
     border-radius: 10px;
+    margin: 4em 2em 0 2em;  
 
 }
 
@@ -78,15 +79,12 @@
 }
 
 .imagenes {
-    display: block;
-    border: 1px black;
-    margin: center;
-    padding: 5px;
     width: 100px;
     height: 100px;
-    display: inline;   
-    justify-content: center; 
+    border: 1px solid;
+    margin: 0 5px;  
 }
+
 
 /* Selector de Etiqueta html */
 ul {
